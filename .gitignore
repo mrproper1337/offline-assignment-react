@@ -1,0 +1,12 @@
+node_modules/
+
+.next/
+out/
+
+
+.cache/
+.idea/
+
+coverage/
+
+npm-debug.log*
