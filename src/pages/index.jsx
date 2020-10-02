@@ -9,7 +9,7 @@ Index.propTypes = {
   films: PropTypes.array.isRequired,
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       films: await fetchFilms(),
